@@ -1,0 +1,132 @@
+<html>
+    <!--
+        BIBLIOTECAS PARA CONSULTA
+        - Biblioteca de CSS: https://developer.mozilla.org/en-US/docs/Web/CSS
+        - Biblioteca de PHP: https://www.php.net/manual/pt_BR/
+
+    -->
+    <head>
+        <meta charset="UTF-8">
+        <title>Testando diversas funcionalidades</title>
+        <style>
+            /*
+            1. A definição de uma classe em CSS é feita da seguinte forma: .nome-da-classe{}
+            2. O que for definido dentro da classe será considerado na hora do alinhamento do conteúdo da página
+            3. O comando color modifica a cor do texto que foi inserido no container
+            4. O comando background-color modifica a cor do plano de fundo daquele conteiner de códigos
+            5. O comando width define o percentual da largura da página que será ocupado pelo container; quando definido em pixel, ajusta o objeto aos valores determinados na configuração
+            6. O comando display na opção flex torna os conteiners filhos como flexíveis para se ajustar na direção desejada
+            7. O comando flex-flow nas opções row e wrap definem a direção em linha da divisão e que será quebrado em multiplas linhas quando preenche uma direção
+            8. O comando text-align alinha o texto de acordo com as orientações apresentadas
+            9. Uma classe de HTML pode ser estilizada apenas com o nome. Por exemplo: div{orientações entre chaves}
+            */
+            .container{
+                color: white;
+                background-color: #f0625f;
+                text-align: justify;
+            }
+            h1{
+                color: #f0625f;
+                text-align: center;
+            }
+            h3{
+                color: blue;
+            }
+            p{
+                text-align: justify;
+            }
+            .conteudo{
+                content: hidden;
+            }
+            .col-33{
+                width: 33%;
+            }
+            .col-50{
+                width: 50%;
+            }
+            .linha{
+                display: flex;
+                flex-flow: row wrap;
+            }
+            .foto{
+                width: 354px;
+                height: 472px;
+            }
+            .table{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CURRÍCULO VITAE</h1>
+        <div class="linha">   
+            <div class="col-33"><img class="foto" src="Foto.jpg"></div>
+            <div class="col-33">
+                <h3>NOME</h3>
+                <p>Samuel Santos de Jesus Carvalho</p>
+                <h3>DESCRIÇÃO</h3>
+                <p>In itaque consectetur eum impedit impedit ut facere magni! Et pariatur voluptas eos vero nihil quo aliquid internos et laboriosam enim hic quis rerum aut consequatur maiores sed quisquam repellat. Et distinctio fuga et consequatur quia est labore inventore est minus incidunt? Sed error adipisci in quos nesciunt non vitae pariatur.</p>
+            </div>
+        </div>
+        <br>
+        <div>
+            <h1>COMO COMPRAR DO PEQUENO</h1>
+            <p>Lorem ipsum dolor sit amet. Sed rerum voluptas est mollitia suscipit sit suscipit maxime qui inventore sapiente. Sed veritatis nihil et illo explicabo id voluptas deleniti aut sint quia At quia perferendis in velit illum. Et illum fugit et temporibus saepe sit esse suscipit.</p>
+            <p>In itaque consectetur eum impedit impedit ut facere magni! Et pariatur voluptas eos vero nihil quo aliquid internos et laboriosam enim hic quis rerum aut consequatur maiores sed quisquam repellat. Et distinctio fuga et consequatur quia est labore inventore est minus incidunt? Sed error adipisci in quos nesciunt non vitae pariatur.</p>
+            <p>Qui galisum eius qui amet quidem non repellendus quis. Ut natus iure est molestiae modi ut ipsam omnis ea corporis nesciunt ut dolores eligendi aut accusamus itaque eum distinctio galisum. Et voluptas omnis id enim fugit nam optio provident aut temporibus similique qui similique voluptas et dolor laudantium id incidunt odio.</p>
+        </div>
+        <br>
+        <div class="linha">
+            <div class = "col-33">
+                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+            <div class = "col-33">
+                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+            <div class = "col-33">
+                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+            
+        </div>
+        <br>
+        <div class="linha">
+            <div class = "col-50">
+                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+            <div class = "col-50">
+                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+        </div>
+        <br>
+        <div class = "container">
+            Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+        <br>
+        <!-- Forma nº 1 de inserir uma tabela no HTML -->
+        <!--
+            1. As tr's são as linhas
+            2. As th's são os cabeçalhos das colunas
+            3. As td's são os conteúdos das colunas, geralmente apresentados em uma linha abaixo do cabeçalho
+            4. A centralização através do CSS não funcionou na classe (.table), nem no categoria (table)
+        -->
+        <div class="table">
+            <h2>TABELA DE MODELO PARA CÓDIGO</h2>
+            <table align="center">
+                <tr>
+                    <th>Cabeçalho 1</th>
+                    <th>Cabeçalho 2</th>
+                </tr>
+                <tr>
+                    <td>O que que eu coloco aqui?</td>
+                    <td>O que que eu coloco aqui?</td>
+                </tr>
+            </table>
+        </div>
+        <!-- Integração de PHP no HTML -->
+        <?php
+            //Essa é a forma correta de entrar no modo PHP
+            //É uma linguagem focada no servidor, ou seja, o código é desenvolvido e apenas o resultado fica disponível para o usuário (cliente)
+            echo 'Testando PHP';
+        ?>
+    </body>
+</html>
